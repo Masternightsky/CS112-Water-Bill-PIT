@@ -26,17 +26,14 @@ def bracketing():
             while CuM >= 31:
                 CuM -= 1
                 Amount = Decimal(Amount) + Decimal('33.65')
-                print(Amount)
         elif CuM > 21:
             while CuM >= 21:
                 CuM -= 1
                 Amount = Decimal(Amount) + Decimal('31.85')
-                print(Amount)
         elif CuM > 11:
             while CuM >= 11:
                 CuM -= 1
                 Amount = Decimal(Amount) + Decimal('30.55')
-                print(Amount)
             print(CuM)
             print(Amount)            
 bracketing()
